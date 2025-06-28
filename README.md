@@ -1,10 +1,18 @@
-💬 Q&A System using LlamaIndex and Vector Indexing
+💬 Build a RAG-based intelligent QA system for PDF documents using LlamaIndex and OpenAI agents.
 -----------------------------------------------------------------
 
 📌 Objective:
 --------------------
 
 This project builds a semantic Question-Answering (Q&A) system that extracts and retrieves answers from a given document (PDF), using LlamaIndex and vector-based retrieval techniques. It serves as a foundation for building intelligent document-based chatbots or search systems.
+
+Implemented a Retrieval-Augmented Generation (RAG) pipeline for document-based question answering.
+
+Indexed document content using SimpleDirectoryReader and VectorStoreIndex for semantic retrieval.
+
+Integrated OpenAIChat and OpenAIAgent to enable accurate, context-aware answers based on document content.
+
+Enabled users to ask natural language questions and receive precise, document-backed responses.
 
 -----------------------------------------------------------------------
 
